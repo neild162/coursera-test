@@ -1,0 +1,79 @@
+{
+    box-sizing: border-box;
+  }
+  
+  h1 {
+      font-size: 30px;
+      text-align: center;
+      color: black;
+      margin-bottom: 30px;
+  }
+  
+  p {
+      padding: 20px ;
+      font-size: 20px;
+      position: relative;    
+  }
+  
+  .column { 
+      background-color: yellow;
+      border: 1px solid black;
+      margin-top: 30px; 
+      margin-right: 50px; 
+      padding: 10px;
+      text-align: justify;
+      position: relative;
+   }
+  
+  span {
+      font-size: 25px;
+      width: 130px;
+      border:1px solid black;
+      text-align: center;
+      float: right; top :0; right: 0; margin: 0;
+      position: absolute;    
+      padding: 2px;
+  }
+  #para1 {
+      background-color: blue;
+  }
+  #para2 {
+      background-color: red;
+  }
+  #para3 {
+      background-color: green;
+  }
+  
+  .row {
+      width: 100%;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  
+  /* Desktop PC view */
+  
+  @media (min-width: 992px) {
+   
+    .pc {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* Tablet PC view */
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .tablet {
+      width: 50%;
+      float: left;
+    }
+    
+  }
+  /* Cell phone view */
+  @media (max-width: 767px)  {
+    
+    .phone {
+      float: left;
+      width: 100%;
+    }
+  }

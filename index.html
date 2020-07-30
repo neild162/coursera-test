@@ -1,75 +1,32 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+
 <head>
-	<meta charset="utf-8 content='width=device-width, initial-scale=1'">
-	<title>My Website</title>
-<style>
-*{
-	box-sizing: border-box;
-}
-	
-/*BASE STYLES*/
-.column{
-	background-color: yellow;
-	border: 1px solid black;
-	margin:10px;
-	padding:10px;
-}
-h1{
-	background-color: red;
-	border: 1px solid black;
-	height: 50px;
-}
-h2{
-	background-color: blue;
-	border: 1px solid black;
-	height:50px;
-}
-h3{
-	background-color: green;
-	border: 1px solid black;
-	height:50px;
-}
-/*DESKTOP VIEW*/
-@media (min-width: 992px){
-	.column{
-		float: left;
-		width: 33.3%;
-		height: 300px
-	}
-	
-}
-/*TABLET VIEW*/
-@media (min-width: 768px) and (max-width: 991px){
-   .column{
-	width: 50%
-    }
-}
-@media (max-width: 767px){
-    .column{width:100%
-    }
-}    
-</style>	
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Module 2 solution</title>
 </head>
 <body>
+<h1>Our Menu</h1>
 <div class ="row">
+ <div class="pc tablet phone"> 
   <div class ="column">
-	<h1>Section1</h1>
+	<span id="para1">Section1</span>
 	<p>Hey neun cenriu inwmirnf</p>
   </div>
+ </div>
+ <div class="pc tablet phone"> 
   <div class="column">
-    <h2>Section2</h2>
+    <span id="para2">Section2</span>
     <p>i m neuii iomwin</p>
   </div>
+ </div> 
+ <div class="pc tablet phone"> 
   <div class="column">
-    <h3>Section3</h3>
+    <span id="para3">Section3</span>
     <p>nu eudnuiew ijwi</p>
   </div>
+ </div> 
 </div>
 </body>
 </html>
-
-
-
-
-
