@@ -1,3 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8 content='width=device-width, initial-scale=1'">
+	<title>My Website</title>
+<style>
+*{
+	box-sizing: border-box;
+}
+	
+/*BASE STYLES*/
+.column{
+	background-color: yellow;
+	border: 1px solid black;
+	margin:10px;
+	padding:10px;
+}
+h1{
+	background-color: red;
+	border: 1px solid black;
+	height: 50px;
+}
+h2{
+	background-color: blue;
+	border: 1px solid black;
+	height:50px;
+}
+h3{
+	background-color: green;
+	border: 1px solid black;
+	height:50px;
+}
+/*DESKTOP VIEW*/
+@media (min-width: 992px){
+	.column{
+		float: left;
+		width: 33.3%;
+		height: 300px
+	}
+	
+}
+/*TABLET VIEW*/
+@media (min-width: 768px) and (max-width: 991px){
+   .column{
+	width: 50%
+    }
+}
+@media (max-width: 767px){
+    .column{width:100%
+    }
+}    
+</style>	
+</head>
+<body>
+<div class ="row">
+  <div class ="column">
+	<h1>Section1</h1>
+	<p>Hey neun cenriu inwmirnf</p>
+  </div>
+  <div class="column">
+    <h2>Section2</h2>
+    <p>i m neuii iomwin</p>
+  </div>
+  <div class="column">
+    <h3>Section3</h3>
+    <p>nu eudnuiew ijwi</p>
+  </div>
+</div>
+</body>
+</html>
 
 
 
